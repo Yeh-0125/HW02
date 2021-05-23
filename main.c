@@ -6,6 +6,7 @@
 #include"Array.h"
 #include"BinarySearch.h"
 #include"BinarySearchTree.h"
+#include"Hash.h"
 
 int main(){
 	int dataCnt1=100000;
@@ -16,7 +17,7 @@ int main(){
 	Array(dataCnt1);
 	BinarySearch(dataCnt1);
 	BinarySearchTree();
-	//Hash();
+	Hash();
 
 	return 0;
 }
