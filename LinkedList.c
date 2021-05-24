@@ -27,7 +27,7 @@ void search(Node *top,char *str){
 
 	while(ptr){
 		if(ptr->apple==apple){
-			printf("ある！\n");
+			//printf("ある！\n");
 			return;
 		}
 		ptr=ptr->next;

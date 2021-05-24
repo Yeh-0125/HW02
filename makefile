@@ -1,6 +1,5 @@
 all:main.c createdata.o LinkedList.o Array.o BinarySearch.o BinarySearchTree.o Hash.o Functions.o
 	gcc main.c createdata.o LinkedList.o Array.o BinarySearch.o BinarySearchTree.o Hash.o Functions.o -o a.out
-	./a.out
 createdata.o:createdata.c createdata.h
 	gcc -c createdata.c -o createdata.o
 LinkedList.o:LinkedList.c LinkedList.h

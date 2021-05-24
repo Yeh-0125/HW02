@@ -47,7 +47,7 @@ void hash_insert(hNode** hashTable,char *str){
 void list_find(hNode *ptr,char *str){
     while(ptr){
 		if(ptr->apple==atoi(str)){
-			printf("ある！\n");
+			//printf("ある！\n");
 		}
 		ptr=ptr->next;
 	}

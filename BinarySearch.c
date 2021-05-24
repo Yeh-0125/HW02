@@ -44,7 +44,7 @@ void BinarySearch(int dataCnt){
 			//printf("ない！\n");
 		}
 		else{
-			printf("ある！\n");
+			//printf("ある！\n");
 		}
     }
     

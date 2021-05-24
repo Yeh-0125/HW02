@@ -43,7 +43,7 @@ void BSTsearch(Leaf *ptr,char *str){
 	Leaf *root=ptr;
     while(root){
 		if(root->apple==atoi(str)){
-			printf("ある！\n");
+			//printf("ある！\n");
 			break;
 		}
 		else if(root->apple>atoi(str)){
